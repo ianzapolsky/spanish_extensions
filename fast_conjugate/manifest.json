@@ -1,0 +1,12 @@
+{
+  "name": "Fast Conjugate",
+  "description" : "To use, type 'conj', then two spaces, and then a verb
+                   in either spanish or english that you want to conjugate.",
+  "version": "1.0",
+  "permissions": [ "tabs", "http://www.spanishdict.com/" ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "omnibox": { "keyword" : "conj" },
+  "manifest_version": 2
+}

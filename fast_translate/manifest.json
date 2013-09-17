@@ -1,0 +1,12 @@
+{
+  "name": "Fast Translate",
+  "description" : "To use, type 'trans', then two spaces, and then a word or phrase 
+                   in either spanish or english that you want to translate.",
+  "version": "1.0",
+  "permissions": [ "tabs", "http://www.linguee.es/" ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "omnibox": { "keyword" : "trans" },
+  "manifest_version": 2
+}
